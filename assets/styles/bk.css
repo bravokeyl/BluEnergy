@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+.bk-hero {
+  background: url(http://www.nuevosol.co.in/wp-content/uploads/2016/01/ground-mount-product.jpg);
+  background: url(http://www.nuevosol.co.in/wp-content/uploads/2015/09/ultima-bg.jpeg);
+  background: url(http://www.nuevosol.co.in/wp-content/uploads/2015/09/clamp-bg.jpg);
+}
+.bk-1.bg-overlay {
+  background: rgba(79, 208, 234, 0.9);
+  background: rgba(51, 122, 183, 0.5);
+}
+
+.navbar-small,
+.mobile-nav {
+  background: rgba(51, 122, 183, 1);
+  border-bottom: none;
+  background-image: -webkit-linear-gradient(321deg,#0089d9,rgba(80, 255, 245, 0.28));
+  background-image: linear-gradient(129deg,#0089d9,rgba(80, 255, 245, 0.28));
+}
+.preloader {
+  height: 100vh;
+  background-image: -webkit-linear-gradient(129deg,rgba(79, 208, 234, 1),rgba(51, 122, 183, 1));
+  background-image: linear-gradient(129deg,rgba(79, 208, 234, 1),rgba(51, 122, 183, 1));
+}
+.cd-words-wrapper {
+  text-align: center;
+}
+.number-counters-dark-bg, .bk-blu-grad {
+  background-image: -webkit-linear-gradient(321deg,#0089d9,#50fff5);
+  background-image: linear-gradient(129deg,#0089d9,#50fff5);
+}
+.number-counters:before, .number-counters-dark-bg:before {
+  background: rgba(17, 17, 17, 0.3);
+}
+.bk .navbar-nav>li>a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 66px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+
+/*#0089d8*/
