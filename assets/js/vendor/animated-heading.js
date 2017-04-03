@@ -53,10 +53,10 @@ jQuery(document).ready(function($){
 			} else if (!headline.hasClass('type') ) {
 				var words = headline.find('.cd-words-wrapper b'),
 					width = 0;
-					console.log(words);
+					// console.log(words);
 				words.each(function(e,i){
 					var wordWidth = $(this).width();
-					console.log(wordWidth,"Width",e,i);
+					// console.log(wordWidth,"Width",e,i);
 				    if (wordWidth > width) width = wordWidth;
 
 				});

@@ -1,21 +1,3 @@
-/*
-*/
-/* --------------------------------------------------
-	0.1 Settigns
--------------------------------------------------- */
-/* ---- Colors ---- */
-/* ---- Label Colors ---- */
-/* ---- Text ---- */
-/* ---- White Space ---- */
-/* ---- Buttons ---- */
-/* ---- Forms ---- */
-/* ---- Navigation ---- */
-/* ---- Footer ---- */
-/* ---- Other ---- */
-/* ---- Media Queries Breakpoints ---- */
-/* --------------------------------------------------
-	0.2 Utility
--------------------------------------------------- */
 hr {
   margin-top: 0;
   margin-bottom: 0;
@@ -2307,6 +2289,7 @@ fieldset[disabled] .form-control:hover {
 .footer-contact .contact-form {
   padding-left: 100px;
   padding-right: 12%;
+  padding-bottom: 78px;
 }
 
 .footer-contact .contact-form header {
@@ -2936,6 +2919,7 @@ fieldset[disabled] .form-control:hover {
   padding: 50px 40px;
   border: 1px solid #f8f8f8;
   background: #fff;
+  text-align: center;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -3493,10 +3477,12 @@ fieldset[disabled] .form-control:hover {
   display: block;
   padding: 50px;
   border-left: 10px solid rgba(17, 17, 17, 0);
+  clear: both;
+  overflow: hidden;
 }
 
 .ft-tabs .tabs-list li a:hover {
-  background: #f8f8f8;
+  background: #f5f9fc;
 }
 
 .ft-tabs .tabs-list li a:focus {
@@ -3508,11 +3494,12 @@ fieldset[disabled] .form-control:hover {
   padding-right: 20px;
   font-size: 50px;
   color: #111;
+  float: left;
 }
 
 .ft-tabs .tabs-list li a .tab-group {
   text-align: left;
-  float: right;
+  float: left;
 }
 
 .ft-tabs .tabs-list li a .tab-group .tab-heading {
@@ -3527,17 +3514,17 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tabs-list .active a {
-  border-left: 10px solid #111111;
-  background: #f4f4f4;
+  border-left: 10px solid #108fd4;
+  background: #f5f9fc;
 }
 
 .ft-tabs .tab-content {
   height: 475px;
-  background: #f4f4f4;
+  background: #f5f9fc;
 }
 
 .ft-tabs .tab-content .tab-content-text {
-  padding-top: 110px;
+  padding-top: 50px;
   padding-left: 80px;
 }
 
