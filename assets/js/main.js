@@ -9,8 +9,6 @@
 		initAnimation();
 
 		if ($(window).width() >= 1260) {
-			initParallax();
-
 			$(window).stellar({
 				hideDistantElements: false
 			});
@@ -24,8 +22,6 @@
 		$('.preloader').delay(350).fadeOut('slow', function() {
 
 		});
-
-		initPortfolio();
 
 	});
 
@@ -126,24 +122,6 @@
 	} // initScroller
 
 
-
-
-/* --------------------------------------------------
-	Parallax
--------------------------------------------------- */
-
-
-	function initParallax () {
-
-		var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
-
-		if (!isSafari) {
-			$(".number-counters").parallax("50%", 0.2);
-			$(".cirlce-counters").parallax("50%", 0.3);
-			$(".ft-slider-parallax").parallax("50%", 0.4);
-		}
-	}
-
 	function initCountMin () {
 
 		var hasCounters = $('#counters-min').hasClass('nbr-wrapper');
@@ -180,24 +158,6 @@
 
 
 	} // initCountMin
-
-
-/* --------------------------------------------------
-	Portfolio
--------------------------------------------------- */
-
-	function initPortfolio () {
-
-		// Filters
-		$('.portfolio-filters a').click(function (e) {
-			  e.preventDefault();
-
-			  $('li').removeClass('active');
-			  $(this).parent().addClass('active');
-		});
-
-	}
-
 
 	$('.show-map').on('click', function(e){
 	  e.preventDefault();
