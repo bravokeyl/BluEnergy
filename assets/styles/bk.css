@@ -5,9 +5,7 @@ body {
   color: #333;
 }
 .bk-hero {
-  background: url(http://www.nuevosol.co.in/wp-content/uploads/2016/01/ground-mount-product.jpg);
-  background: url(http://www.nuevosol.co.in/wp-content/uploads/2015/09/ultima-bg.jpeg);
-  background: url(http://www.nuevosol.co.in/wp-content/uploads/2015/09/clamp-bg.jpg);
+  background: url(../images/clamp-bg.jpg);
 }
 .bk-1.bg-overlay {
   background: rgba(79, 208, 234, 0.9);
