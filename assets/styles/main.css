@@ -3451,7 +3451,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-tabs .tabs-list .active a {
-  border-left: 10px solid #108fd4;
+  border-left: 8px solid #108fd4;
   background: #f5f9fc;
 }
 
