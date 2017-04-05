@@ -1843,10 +1843,9 @@ fieldset[disabled] .form-control:hover {
   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  color: #f5f9fc;
+  color: #999;
 }
 
-.copyright small a,
 .copyright small a:hover {
   color: #f5f9fc;
 }
@@ -1856,7 +1855,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .copyright .to-the-top {
-  color: #f5f9fc;
+  color: #999;
 }
 
 .copyright .to-the-top i {
